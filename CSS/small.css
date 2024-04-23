@@ -1,0 +1,16 @@
+/* Small devices (phones, less than 768px) */
+/* largeur min 320px */
+@media (max-width: 767.98px) {
+	.lodging-cards,
+	.popular-cards,
+	.activities-cards,
+	.footer {
+		flex-direction: column;
+	}
+
+	.lodging-cards a,
+	.popular-cards a,
+	.activities-cards a {
+		width: 100%;
+	}
+}
