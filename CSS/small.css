@@ -12,5 +12,6 @@
 	.popular-cards a,
 	.activities-cards a {
 		width: 100%;
+		flex-direction: column;
 	}
 }
