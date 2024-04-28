@@ -23,11 +23,15 @@
 		width: 30%;
 	}
 
-	.popular-cards .card-title {
+	.card-title {
 		font-size: 14px;
 	}
 
-	.popular-cards .card-subtitle {
+	.card-subtitle {
 		font-size: 13px;
+	}
+
+	.activities-cards a {
+		height: 270px;
 	}
 }
