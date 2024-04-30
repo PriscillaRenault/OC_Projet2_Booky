@@ -182,7 +182,15 @@ a::selection {
 
 .activities-cards a {
 	width: calc((100% / 4) - 30px / 4);
+	height: 439px;
 	margin-top: 30px;
+}
+.activities-cards a .card {
+	height: 439px;
+	padding: 0;
+}
+.activities-cards a .card img {
+	height: 380px;
 }
 .footer {
 	display: flex;
