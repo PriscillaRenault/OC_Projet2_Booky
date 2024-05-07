@@ -8,15 +8,23 @@ TODO /LE MARGIN top on activities
 
 
 /*reset*/
+* {
+	box-sizing: border-box;
+}
 ol,
 ul {
 	list-style: none;
 }
 
-* {
-	box-sizing: border-box;
+h1,
+p {
+	margin: 0;
 }
 
+a {
+	color: inherit;
+	text-decoration: none;
+}
 /****** General ***********/
 :root {
 	--main-color: #0065fc;
@@ -63,24 +71,27 @@ li {
 .nav-links {
 	display: flex;
 	gap: 68px;
-	height: 35px;
-}
-
-.nav-links li a {
-	padding-top: 10px;
 }
 
 .nav-links li :hover {
 	color: var(--main-color);
 	border-top: 3px solid var(--main-color);
 }
-
-a {
-	color: inherit;
-	text-decoration: none;
+.nav-links li a {
+	padding-top: 10px;
 }
-a::selection {
-	color: var(--main-color);
+
+.search-titles {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.search-h1 {
+	font-size: 26px;
+}
+.search-subtitle {
+	font-size: 19px;
 }
 
 .section-title {
