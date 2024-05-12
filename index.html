@@ -42,23 +42,30 @@
 			</header>
 			<main>
 				<form class="search">
-					<div class="title">
-						<h1>
+					<div class="search-headlines">
+						<h1 class="search-h1">
 							Trouver votre hébergement pour des vacances de rêve
 						</h1>
-						<p>En plein centre-ville ou en pleine nature</p>
+						<p class="search-subtitle">
+							En plein centre-ville ou en pleine nature
+						</p>
 					</div>
-					<div class="searchButton">
-						<i class="fa-solid fa-location-dot"></i>
+					<div class="search-bar">
+						<i
+							class="fa-solid fa-location-dot"
+							id="location-dot"
+						></i>
 						<!--TODO opacity 1 sur le placeholder -->
 						<input
+							class="location-input"
 							type="text"
 							name="location"
 							id="location"
 							placeholder="Marseille, France"
 						/>
-						<button class="text-search">Rechercher</button>
+						<button class="search-btn">Rechercher</button>
 						<i
+							id="icone-search"
 							class="fa-regular fa-magnifying-glass icone-search"
 						></i>
 					</div>
