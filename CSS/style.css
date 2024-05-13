@@ -1,8 +1,8 @@
 TODO compatibilité navigateurs firefox chrome
-TODO valider le code HTML et CSS
 TODO gérer les margin et padding des cards
-TODO gérer les images des cards en cover ou autre
-TODO LE MARGIN top on activities
+TODO gérer espacement dans le texte des cards hosting
+TODO gérer le margin au dessus des titres des h2
+
 
 
 /*reset*/
@@ -15,6 +15,7 @@ ul {
 }
 
 h1,
+h2,
 p {
 	margin: 0;
 }
@@ -170,11 +171,6 @@ li {
 	background-color: var(--filter-bg-color);
 }
 
-.section-title {
-	margin: 0;
-	font-size: 22px;
-}
-
 /*********** infobar ***********/
 
 .infobar {
@@ -253,28 +249,43 @@ li {
 	flex-wrap: wrap;
 }
 
+.lodging-section-title {
+	margin-bottom: 30px;
+}
+
 .lodging-cards a {
-	margin-top: 30px;
-	/* Largeur total /3 (nb cards) - margin/3 - gap/3 */
-	width: calc((100% / 3) - 30px / 3 - 30px / 3);
+	/* Largeur total /3 (nb cards) (gap*2)/3 */
+	width: calc((100% / 3) - (60px / 3));
 	height: 206.25px;
 }
 .lodging img {
 	height: 124px;
 }
 
+.lodging-cards .card .card-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 8px;
+}
+
 .lodging-cards .card .card-content .card-txt {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	gap: 8px;
 }
 
-.lodging-cards .card .card-content .card-title {
-	line-height: 18.78px;
+.lodging-cards .card .card-content .card-txt .card-title {
+	font-size: 16px;
 	margin: 0;
 }
-.lodging-cards .card .card-content .card-subtitle {
-	line-height: 16.44px;
+.lodging-cards .card .card-content .card-txt .card-subtitle {
+	font-size: 14px;
+}
+
+.lodging-plus {
+	margin-top: 30px;
 }
 .lodging img,
 .activities img {
