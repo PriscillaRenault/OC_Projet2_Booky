@@ -2,9 +2,7 @@ TODO compatibilité navigateurs firefox chrome
 TODO valider le code HTML et CSS
 TODO gérer les margin et padding des cards
 TODO gérer les images des cards en cover ou autre
-TODO GAP SUR footer
-TODO /LE MARGIN top on activities
-
+TODO LE MARGIN top on activities
 
 
 /*reset*/
@@ -86,6 +84,7 @@ li {
 .search {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	gap: 35px;
 	margin-bottom: 35px;
 }
@@ -97,10 +96,10 @@ li {
 }
 
 .search-h1 {
-	font-size: 26px;
+	font-size: 22px;
 }
 .search-subtitle {
-	font-size: 19px;
+	font-size: 16px;
 }
 
 .search-bar {
@@ -125,13 +124,16 @@ li {
 }
 ::placeholder {
 	color: black;
-	font-size: 21px;
+	font-size: 18px;
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
 }
 .search-btn {
 	background-color: var(--main-color);
 	color: white;
 	font-size: 18px;
 	font-weight: bold;
+	font-family: "Raleway", sans-serif;
 	border-radius: 0px 15px 15px 0px;
 	padding: 0px 15px;
 	border: none;
@@ -141,11 +143,60 @@ li {
 	display: none;
 }
 
+/****************** filters *****************/
+.filter-bar {
+	width: 758px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 15px;
+}
+
+.filter,
+.filter-btn {
+	font-weight: bold;
+}
+
+.filter-btn {
+	height: 50px;
+	font-family: "Raleway", sans-serif;
+	font-size: 17px;
+	background-color: white;
+	border: 2px solid var(--main-bg-color);
+	border-radius: 25px;
+	padding: 4px 19px;
+}
+.filter-btn:hover {
+	background-color: var(--filter-bg-color);
+}
+
 .section-title {
 	margin: 0;
 	font-size: 22px;
 }
 
+/*********** infobar ***********/
+
+.infobar {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	font-size: 16px;
+}
+
+.fa-info {
+	height: 24px;
+	width: 24px;
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid var(--filter-bg-color);
+	border-radius: 50%;
+}
+
+/*********** cards ***********/
 .card {
 	background-color: white;
 	border-radius: 20px;
@@ -173,7 +224,7 @@ li {
 	color: var(--main-bg-color);
 }
 
-/****** lodging And popular ***********/
+/*********** lodging And popular ***********/
 .lodging-and-popular {
 	display: flex;
 	justify-content: space-between;
@@ -187,7 +238,7 @@ li {
 	box-sizing: border-box;
 }
 
-/****** lodging ***********/
+/*********** lodging ***********/
 .lodging {
 	width: 65%;
 }
@@ -203,9 +254,8 @@ li {
 }
 
 .lodging-cards a {
-	/* TODO revoir les tailles des card trop petites */
 	margin-top: 30px;
-	/* Largeur total /3 - margin/3 - gap/3 */
+	/* Largeur total /3 (nb cards) - margin/3 - gap/3 */
 	width: calc((100% / 3) - 30px / 3 - 30px / 3);
 	height: 206.25px;
 }
@@ -233,7 +283,7 @@ li {
 	border-top-right-radius: 20px;
 }
 
-/****** popular ***********/
+/*********** popular ***********/
 .popular {
 	width: 33%;
 }
@@ -276,14 +326,14 @@ li {
 
 /****** activities ***********/
 .activities {
-	width: 100%;
-	margin-top: 30px;
+	margin-top: 35px;
+	padding: 30px;
 }
 
 .activities-cards a {
-	width: calc((100% / 4) - 30px / 4);
+	width: calc((100% / 4) - 30px / 4 - 30px / 4);
 	height: 439px;
-	margin-top: 30px;
+	margin-top: 35px;
 }
 .activities-cards a .card {
 	height: 439px;
@@ -292,6 +342,8 @@ li {
 .activities-cards a .card img {
 	height: 380px;
 }
+
+/*********** footer ***********/
 .footer {
 	display: flex;
 	flex-direction: row;
@@ -317,6 +369,5 @@ li {
 Pour mieux organiser le code CSS, je vais regrouper les sélecteurs 
 et leurs règles de style en fonction de leurs catégories et de 
 leurs emplacements dans le document HTML. 
-Voici une version réorganisée du code :
 
 */
