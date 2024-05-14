@@ -82,11 +82,21 @@
 		flex-direction: column-reverse;
 		gap: 0;
 	}
+
+	.lodging-and-popular section {
+		border-radius: 0;
+	}
+
+	.lodging {
+		background-color: white;
+	}
+
 	.lodging-cards,
 	.popular-cards,
 	.activities-cards,
 	.footer {
 		flex-direction: column;
+		gap: 15px;
 	}
 
 	.lodging-cards a,
@@ -94,5 +104,14 @@
 	.activities-cards a {
 		width: 100%;
 		flex-direction: column;
+	}
+
+	.footer {
+		padding: 30px;
+		flex-direction: column;
+		gap: 50px;
+	}
+	.footer section {
+		width: 100%;
 	}
 }
