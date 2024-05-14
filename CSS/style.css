@@ -35,9 +35,6 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: "Raleway", sans-serif;
-	display: flex;
-	justify-content: center;
-	gap: 35px;
 }
 li {
 	list-style: none;
@@ -49,6 +46,9 @@ li {
 	margin: 0 auto;
 	padding: 0 50px;
 	box-sizing: border-box;
+	display: flex;
+	gap: 35px;
+	flex-direction: column;
 }
 
 .fa-solid {
@@ -130,7 +130,7 @@ li {
 	font-family: "Raleway", sans-serif;
 	font-weight: bold;
 }
-.search-btn {
+#search-btn {
 	background-color: var(--main-color);
 	color: white;
 	font-size: 18px;
@@ -141,7 +141,7 @@ li {
 	border: none;
 }
 
-#icone-search {
+#search-icone {
 	display: none;
 }
 
@@ -350,8 +350,11 @@ li {
 	height: 439px;
 	margin-top: 35px;
 }
-.activities-cards a .card {
+.activities-cards a {
 	height: 439px;
+	padding: 0;
+}
+.activities-cards a .card {
 	padding: 0;
 }
 .activities-cards a .card img {

@@ -39,6 +39,33 @@
 		border-top: 0;
 	}
 
+	/*********** search ***********/
+	.search {
+		padding: 0 20px;
+		margin-bottom: 0;
+	}
+
+	.location-input {
+		flex-grow: 1;
+	}
+	#search-btn {
+		display: none;
+	}
+	#search-icone {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 49px;
+		height: 49px;
+		font-size: 17px;
+		background-color: var(--main-color);
+		color: white;
+		border-radius: 15px;
+		box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+	}
+
+	/*********** filters ***********/
+
 	.filter {
 		width: 100%;
 	}
@@ -47,9 +74,13 @@
 		width: 100%;
 		flex-wrap: wrap;
 	}
+	.filter-btn {
+		width: calc(50% - 10px - 15px);
+	}
 
 	.lodging-and-popular {
 		flex-direction: column-reverse;
+		gap: 0;
 	}
 	.lodging-cards,
 	.popular-cards,
