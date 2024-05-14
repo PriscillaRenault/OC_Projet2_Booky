@@ -16,6 +16,7 @@ ul {
 
 h1,
 h2,
+h3,
 p {
 	margin: 0;
 }
@@ -256,7 +257,9 @@ li {
 .lodging-cards a {
 	/* Largeur total /3 (nb cards) (gap*2)/3 */
 	width: calc((100% / 3) - (60px / 3));
-	height: 206.25px;
+}
+.lodging-cards .card {
+	height: 225px;
 }
 .lodging img {
 	height: 124px;
@@ -267,6 +270,7 @@ li {
 	flex-direction: column;
 	justify-content: space-between;
 	gap: 8px;
+	padding-left: 10px;
 }
 
 .lodging-cards .card .card-content .card-txt {
@@ -278,7 +282,7 @@ li {
 
 .lodging-cards .card .card-content .card-txt .card-title {
 	font-size: 16px;
-	margin: 0;
+	margin: 8px 0 0;
 }
 .lodging-cards .card .card-content .card-txt .card-subtitle {
 	font-size: 14px;
@@ -354,7 +358,8 @@ li {
 	height: 380px;
 }
 .activities-cards a .card .card-content .card-txt .card-title {
-	padding: 0px 20px;
+	padding: 10px 20px;
+	font-size: 16px;
 }
 
 /*********** footer ***********/
