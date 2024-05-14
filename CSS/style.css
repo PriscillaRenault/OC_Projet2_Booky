@@ -256,7 +256,7 @@ li {
 
 .lodging-cards a {
 	/* Largeur total /3 (nb cards) (gap*2)/3 */
-	width: calc((100% / 3) - (60px / 3));
+	width: calc((100% / 3) - (70px / 3));
 }
 .lodging-cards .card {
 	height: 225px;
