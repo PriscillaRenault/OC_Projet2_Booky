@@ -4,6 +4,50 @@
 	.main-container {
 		padding: 0;
 	}
+
+	/******* header ******/
+	.header {
+		flex-direction: column;
+	}
+	.logo {
+		margin: auto;
+		padding: 20px 0;
+	}
+
+	.nav-links {
+		gap: 0;
+		padding: 0;
+		justify-content: space-around;
+	}
+
+	.nav-links li {
+		width: 100%;
+		display: flex;
+	}
+
+	.nav-links li a {
+		text-align: center;
+		width: 100%;
+		padding-top: 0px;
+		padding-bottom: 0.5em;
+		border-bottom: 3px solid var(--main-bg-color);
+	}
+
+	.nav-links li :hover {
+		color: var(--main-color);
+		border-bottom: 3px solid var(--main-color);
+		border-top: 0;
+	}
+
+	.filter {
+		width: 100%;
+	}
+
+	.filter-bar {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
 	.lodging-and-popular {
 		flex-direction: column-reverse;
 	}
