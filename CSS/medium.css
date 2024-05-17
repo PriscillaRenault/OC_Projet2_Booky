@@ -1,13 +1,24 @@
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+	/*********** Lodging and popular ***********/
 	.lodging-and-popular {
 		flex-direction: column;
 	}
 
+	/*********** card ***********/
+	.card-title {
+		font-size: 14px;
+	}
+
+	.card-subtitle {
+		font-size: 13px;
+	}
+	/*********** Lodging ***********/
 	.lodging {
 		width: 100%;
 	}
 
+	/*********** popular ***********/
 	.popular {
 		width: 100%;
 		margin-top: 50px;
@@ -23,14 +34,7 @@
 		width: 30%;
 	}
 
-	.card-title {
-		font-size: 14px;
-	}
-
-	.card-subtitle {
-		font-size: 13px;
-	}
-
+	/*********** activities ***********/
 	.activities-cards a,
 	.activities-cards a .card {
 		height: 270px;

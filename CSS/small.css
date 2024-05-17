@@ -1,6 +1,6 @@
 /* Small devices (phones, less than 768px) */
 /* largeur min 320px */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
 	.main-container {
 		padding: 0;
 	}
@@ -75,9 +75,14 @@
 		flex-wrap: wrap;
 	}
 	.filter-btn {
-		width: calc(50% - 10px - 15px);
+		width: calc((100% / 2) - 10px);
+		padding: 4px 19px;
+	}
+	.filter-btn span {
+		font-size: 14px;
 	}
 
+	/*********** lodging popular and activities ***********/
 	.lodging-and-popular {
 		flex-direction: column-reverse;
 		gap: 0;
@@ -106,6 +111,7 @@
 		flex-direction: column;
 	}
 
+	/*********** footer ***********/
 	.footer {
 		padding: 30px;
 		flex-direction: column;
