@@ -154,6 +154,10 @@ li {
 }
 
 .filter-btn {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 10px;
 	height: 50px;
 	font-family: var(--font-family);
 	font-size: 17px;
@@ -342,23 +346,20 @@ li {
 }
 
 .activities-cards a {
-	width: calc((100% / 4) - 30px / 4 - 30px / 4);
-	height: 439px;
-	display: flex;
-	gap: 35px;
-}
-.activities-cards a {
-	height: 439px;
+	width: calc((100% / 4) - 30px / 4);
+	gap: 30px;
 	padding: 0;
 }
+
 .activities-cards a .card {
 	padding: 0;
+	height: 442px;
 }
 .activities-cards a .card img {
 	height: 380px;
 }
 .activities-cards a .card .card-content .card-txt .card-title {
-	padding: 10px 20px;
+	padding: 10px 10px;
 	font-size: 16px;
 }
 
