@@ -132,6 +132,7 @@ li {
 	border-radius: 0px 15px 15px 0px;
 	padding: 0px 15px;
 	border: none;
+	cursor: pointer;
 }
 
 #search-icone {
@@ -140,7 +141,7 @@ li {
 
 /****************** filters *****************/
 .filter-bar {
-	width: 100%;
+	width: 758px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
