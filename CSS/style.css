@@ -308,11 +308,18 @@ li {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 30px;
+}
+
+.popular-cards {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
 }
 
 .popular-cards .card {
 	display: flex;
-	margin-top: 33px;
+	gap: 30px;
 }
 
 .popular-cards img {

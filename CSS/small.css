@@ -88,6 +88,9 @@
 	.filter-btn span {
 		font-size: 14px;
 	}
+	.infobar {
+		padding-bottom: 35px;
+	}
 
 	/*********** lodging popular and activities ***********/
 	.lodging-and-popular {
