@@ -118,6 +118,14 @@
 		flex-direction: column;
 	}
 
+	/*********** activities ***********/
+	.activities-cards a .card {
+		height: 200px;
+	}
+	.activities-cards a .card img {
+		height: 141px;
+	}
+
 	/*********** footer ***********/
 	.footer {
 		padding: 30px;
