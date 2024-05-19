@@ -124,7 +124,7 @@ li {
 	font-family: var(--font-family);
 	font-weight: bold;
 }
-#search-btn {
+#search-btn-text {
 	background-color: var(--main-color);
 	color: white;
 	font-size: 18px;
@@ -246,6 +246,13 @@ li {
 	gap: 30px;
 }
 
+.lodging img,
+.activities img {
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
 .lodging-cards {
 	flex-wrap: wrap;
 }
@@ -290,12 +297,6 @@ li {
 
 .lodging-plus {
 	margin-top: 30px;
-}
-.lodging img,
-.activities img {
-	width: 100%;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
 }
 
 /*********** popular ***********/

@@ -51,7 +51,7 @@
 	.location-input {
 		flex-grow: 1;
 	}
-	#search-btn {
+	#search-btn-text {
 		display: none;
 	}
 	#search-icone {
