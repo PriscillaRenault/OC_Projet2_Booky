@@ -92,6 +92,7 @@ li {
 
 .search-h1 {
 	font-size: 22px;
+	font-weight: bold;
 }
 .search-subtitle {
 	font-size: 16px;
@@ -224,7 +225,7 @@ li {
 .lodging-and-popular {
 	display: flex;
 	justify-content: space-between;
-	gap: 40px;
+	gap: 50px;
 }
 
 .lodging-and-popular section {
