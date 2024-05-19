@@ -83,7 +83,6 @@
 	}
 	.filter-btn {
 		width: calc((100% / 2) - 10px);
-		padding: 4px 19px;
 	}
 	.filter-btn span {
 		font-size: 14px;
