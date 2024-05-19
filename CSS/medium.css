@@ -34,11 +34,10 @@
 	}
 
 	/*********** activities ***********/
-	.activities-cards a,
 	.activities-cards a .card {
 		height: 270px;
 	}
 	.activities-cards a .card img {
-		height: 200px;
+		height: 193px;
 	}
 }
