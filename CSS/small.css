@@ -120,10 +120,6 @@
 		flex-direction: column;
 	}
 
-	.popular-cards a .card {
-		gap: 24px;
-	}
-
 	/*********** activities ***********/
 	.activities-cards a .card {
 		height: 200px;

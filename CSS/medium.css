@@ -32,6 +32,9 @@
 	.popular-cards a {
 		width: 30%;
 	}
+	.popular-cards a .card {
+		gap: 24px;
+	}
 
 	/*********** activities ***********/
 	.activities-cards a .card {
