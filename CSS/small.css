@@ -3,6 +3,7 @@
 @media (max-width: 768px) {
 	.main-container {
 		padding: 0;
+		gap: 15px;
 	}
 
 	/******* header ******/
@@ -101,10 +102,6 @@
 		border-radius: 0;
 	}
 
-	.lodging {
-		background-color: white;
-	}
-
 	.lodging-cards,
 	.popular-cards,
 	.activities-cards,
@@ -120,6 +117,13 @@
 		flex-direction: column;
 	}
 
+	/*********** lodging ***********/
+	.lodging {
+		background-color: white;
+	}
+	.lodging-plus {
+		margin-top: 15px;
+	}
 	/*********** activities ***********/
 	.activities-cards a .card {
 		height: 200px;
@@ -130,6 +134,7 @@
 
 	/*********** footer ***********/
 	.footer {
+		margin-top: 20px;
 		padding: 30px;
 		flex-direction: column;
 		gap: 50px;
