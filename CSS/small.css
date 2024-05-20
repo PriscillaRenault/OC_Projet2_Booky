@@ -101,6 +101,10 @@
 		border-radius: 0;
 	}
 
+	.lodging-and-popular section h2 {
+		font-size: 22px;
+	}
+
 	.lodging {
 		background-color: white;
 	}

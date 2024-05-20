@@ -351,7 +351,7 @@ li {
 
 /****** activities ***********/
 .activities {
-	margin-top: 35px;
+	margin-top: 30px;
 	padding: 30px;
 }
 
@@ -363,7 +363,7 @@ li {
 
 .activities-cards a .card {
 	padding: 0;
-	height: 442px;
+	height: 439px;
 }
 .activities-cards a .card img {
 	height: 380px;
@@ -378,7 +378,6 @@ li {
 	display: flex;
 	flex-direction: row;
 	background-color: var(--main-bg-color);
-	margin-top: 35px;
 	padding: 20px;
 }
 
