@@ -221,7 +221,7 @@ li {
 	color: var(--main-bg-color);
 }
 
-/*********** lodging And popular ***********/
+/*********** lodging popular and activities ***********/
 .lodging-and-popular {
 	display: flex;
 	justify-content: space-between;
